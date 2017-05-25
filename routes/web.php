@@ -16,3 +16,4 @@ Route::get('/', function () {
 	});
 Route::get('properties', 'PropertyController@index');
 Route::get('suburbs', 'PropertyController@suburbs');
+Route::get('lookup', 'PropertyController@lookup');
